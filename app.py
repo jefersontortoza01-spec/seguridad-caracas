@@ -1,4 +1,3 @@
-
 import streamlit as st
 import cv2
 import tempfile
@@ -37,3 +36,4 @@ if archivo_subido is not None:
     cap.release()
     os.unlink(tfile.name) # Borrar archivo temporal
     st.success("Análisis completado")
+
